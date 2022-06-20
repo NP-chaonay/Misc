@@ -1,7 +1,7 @@
 [why section]
 - Why put like this order EQ>Loudness>Compressor>Limiter:
 	- The input audio is nothing normal but we need to apply EQ to make it optimize with device posture
-	- So we do EQ first (assume that orignal audio is good)
-	- And then we pass to Loudness (idk but I think this will do loudness stuff work to make it not so loud/quiet, idk)
-	- Compressor (idk it seem to be popular plugin, that use before export or mix with another track, idk about this too)
-	- Limiter as last to make sure there is no hard-clip in output audio
+	- So we do EQ (using 10band, then recalculate freq, then adjust each band it, also adjust output dB as final, leave else as default) first (assume that orignal audio is good)
+	- And then we pass to Loudness (leave all default) (idk but I think this will do loudness stuff work to make it not so loud/quiet, idk)
+	- Compressor (using default value) (idk it seem to be popular plugin, that use before export or mix with another track, idk about this too)
+	- Limiter (using default value but enable 2 auto features) as last to make sure there is no hard-clip in output audio
