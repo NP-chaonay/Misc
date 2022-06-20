@@ -31,6 +31,7 @@ This zip consists of
 				- GNOME on Wayland (for some features that implementation (v1) do not handle for them)
 				- Non-GNOME on X11
 		- PulseEffects preset changing based on mentioned state
+			- see https://github.com/NP-chaonay/Misc/tree/main/SurfaceLaptopStudio_LinuxAudioTweak_OnDevicePosture for more suggestion info
 
 ## Requirement
 - Linux kernel from GitHub_Repo:linux-surface/linux-surface >=5.18.4-surface
