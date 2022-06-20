@@ -1,0 +1,14 @@
+# This file is license and legal statement, contains license details and brief (if not all placed) legal details
+
+[Section "Metadata"]
+- License enforcer: (see License Owner)
+- License Owner: Nuttapong Punpipat (nuttapongpunpipat@gmail.com)
+- Created on : 2022-06-20_11:18_UTC+07
+- Previous applied license file : N/A
+
+[Section "General declaration"]
+- This license have MIT license as fallback
+
+[Section "Remark"]
+- If license is changed, should kept the old license file at /oldlicense, and renamed to when it was created
+- For now let using MIT license as fallback
