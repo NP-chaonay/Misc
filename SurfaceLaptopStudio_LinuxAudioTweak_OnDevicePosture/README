@@ -1,6 +1,0 @@
-- These files except specify here, consider as lazy adjustment. If anyone have better adjustment can do a PR.
-
-**How you can contribute**
-- If you have >=2 of SLS, you can boot one with Windows and one with Linux, in this way, you can compare how it sounds different and do tweaking based on what you listen.
-- If you have very-good/studio microphone instead, you can using that to compare instead of above.
-- If you have very good knowledge on what I mentioned, I welcome contribution on my repo which consist of audio-tweaking configuration.
