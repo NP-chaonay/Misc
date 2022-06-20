@@ -1,5 +1,7 @@
 # The Surface Laptop Studio Tablet Mode State Sensor Integration Daemon
 
+**_Warning: This is not well tested, and have not tested on Non-GNOME DE. So it is buggy and not stable, but open contribution is welcomed in either issues/PR._**
+
 This zip consists of
 - sls_table_mode_sysdaemon_withdriver.sh: (Implementation v1) Daemon to run as root, for communicate with userdaemon of same implementation
 - sls_table_mode_userdaemon_withdriver.sh: (Implementation v1) Daemon to run as individual user
