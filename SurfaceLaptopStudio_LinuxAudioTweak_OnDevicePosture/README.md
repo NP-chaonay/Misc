@@ -10,3 +10,4 @@
 
 **Remarks**
 - These files except specify here, consider as lazy adjustment. If anyone have better adjustment can do a PR.
+- in laptop state, seem like I got EQ in shape of sine curve (normal sine curve that starts at y=0 start by going up and down...)
