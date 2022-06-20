@@ -48,3 +48,4 @@ This zip consists of
 
 ## After Usage
 1) can delete folder that ref by $RUNDIR variable of each script safely 
+2) Found any bugs or problem? Welcomed reporting issues / PRs
