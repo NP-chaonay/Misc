@@ -7,12 +7,14 @@
 - I target imitate Windows audio with audio enhancment for laptop speaker turned on, but Dolby Atmos is turned off. So you have to do followings on Windows if you want to compare that one:
   - Disable Dolby Atmos: not just turned off in spatial sound, but you have to instal Dolby Access and disable at the settings too.
   - Enable audio enhancement for laptop speaker: Settings > System > Sound (maybe, if no then Audio) > At section Output > Speaker > Audio Enhancement
+  - Ensure that no 3rd party audio enhancment enabled, I want only OEM audio enhancment to be enabled except Dolby Atmos
 - On Linux, you have to set laptop speaker sample rate to 48kHz (see https://github.com/linux-surface/linux-surface/wiki/Surface-Laptop-Studio#poor-sound-quality-when-playing-on-laptop-speaker-on-441khz-sample-rate), or else you cannot correctly imitate Windows audio cause it has a problem about internal driver. 
 
 **How you can contribute**
 - If you have >=2 of SLS, you can boot one with Windows and one with Linux, in this way, you can compare how it sounds different and do tweaking based on what you listen.
 - If you have very-good/studio microphone instead, you can using that to compare instead of above.
 - If you have very good knowledge on what I mentioned, I welcome contribution on my repo which consist of audio-tweaking configuration.
+- Read Important first.
 
 **Remarks**
 - These files except specify here, consider as lazy adjustment. If anyone have better adjustment can do a PR.
