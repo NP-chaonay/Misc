@@ -16,6 +16,9 @@
 - If you have very good knowledge on what I mentioned, I welcome contribution on my repo which consist of audio-tweaking configuration.
 - Read Important first.
 
+** Tips **
+- For PulseEffects, try this command ```pulseeffects -b 1``` to bypass audio effect and ```-b 2``` to revert. This help to hear the difference.
+
 **Remarks**
 - These files except specify here, consider as lazy adjustment. If anyone have better adjustment can do a PR.
 - in laptop state, seem like I got EQ in shape of sine curve (normal sine curve that starts at y=0 start by going up and down...)
