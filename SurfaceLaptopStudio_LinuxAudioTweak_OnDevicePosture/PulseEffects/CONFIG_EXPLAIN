@@ -12,4 +12,4 @@
 	- Better my way I think it is better is to, (1) adjust EQ in normal way (2) ensure that center of the curve is sit at 0db (3) set output db to -(value of highest dB that existed in each band)
 		- Formula for (2) uses in Python:
 			- max=(highest dB value in each band); min=(same as max but lowest, also keep negative value if it have); c=max-(max-min)/2
-			- c is the value needs to subtract every band's dB value
+			- c is the value needs to subtract every band's dB value (if c is negative then it will be X-c and will become X+|c|)
