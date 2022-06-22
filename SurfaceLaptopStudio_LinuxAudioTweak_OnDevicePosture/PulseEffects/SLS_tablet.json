@@ -117,7 +117,7 @@
             "mode": "IIR",
             "num-bands": "10",
             "input-gain": "0",
-            "output-gain": "-4.7999999999999998",
+            "output-gain": "-12.800000000000001",
             "split-channels": "false",
             "left": {
                 "band0": {
