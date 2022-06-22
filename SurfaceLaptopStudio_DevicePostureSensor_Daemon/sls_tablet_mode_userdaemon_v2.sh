@@ -81,7 +81,7 @@ tolaptop() {
 	fi
 	## for PulseEffects integration, configure your preset below
 	is_pulseeffects_run
-	if (($?)); then pulseeffects -l SLS_laptop; fi
+	if (($?)); then pulseeffects -l SLS_laptop_dev; fi
 	##
 }
 toslate() {
@@ -93,7 +93,7 @@ toslate() {
 	fi
 	## for PulseEffects integration, configure your preset below
 	is_pulseeffects_run
-	if (($?)); then pulseeffects -l SLS_slate; fi
+	if (($?)); then pulseeffects -l SLS_slate_dev; fi
 	##
 }
 totablet() {
@@ -103,13 +103,13 @@ totablet() {
 	fi
 	## for PulseEffects integration, configure your preset below
 	is_pulseeffects_run
-	if (($?)); then pulseeffects -l SLS_tablet; fi
+	if (($?)); then pulseeffects -l SLS_tablet_dev; fi
 	##
 }
 tolid() {
 	## for PulseEffects integration, configure your preset below
 	is_pulseeffects_run
-	if (($?)); then pulseeffects -l SLS_lid; fi
+	if (($?)); then pulseeffects -l SLS_lid_dev; fi
 	##
 }
 is_on_wayland() {
