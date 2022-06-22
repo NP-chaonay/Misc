@@ -10,6 +10,7 @@
   - Ensure that no 3rd party audio enhancment enabled including spatial audio, I want only OEM audio enhancment to be enabled except Dolby Atmos
   - _"mainly accurate on instruction and then accurate on what we hear"_: I mean that we need to ensure that we using most correct/accurate audio processing instruction, but there may be some exception on this to allow audio to be more like on Windows-side, however if possible and it is good to do, audio processing instuction must be correct/accurate. 
 - On Linux, you have to set laptop speaker sample rate to 48kHz (see https://github.com/linux-surface/linux-surface/wiki/Surface-Laptop-Studio#poor-sound-quality-when-playing-on-laptop-speaker-on-441khz-sample-rate), or else you cannot correctly imitate Windows audio cause it has a problem about internal driver. 
+- If possible, comparing and testing and tweaking on highest volume as possible (as you feel free to do, if volume is too low too do then it is better to wait for its time)
 
 **How you can contribute**
 - If you have >=2 of SLS, you can boot one with Windows and one with Linux, in this way, you can compare how it sounds different and do tweaking based on what you listen.
