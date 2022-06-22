@@ -7,3 +7,4 @@
 	- Limiter (using default value but enable 2 auto features) as last to make sure there is no hard-clip in output audio
 - I think it is better to reduce output dB in plugin EQ, according to maximum peek of EQ curve. So the sound will not much over-amp and make it be quality-reduced later when passing through Limiter (Just like bass boosted, when it passed Limiter to do soft clipping, the shape of sound is changed)
 	- The disadvantage of this is when some freq is gone very high than other else, we have low-volume output sound, so maybe we have to using other EQ adjustment / method of EQ adjustment / or even method of audio improvement
+	- So if we cannot find or implement way of using better EQ/method, then I may need to using this instead, it make audio becoming less loud but at least gurrantee of audio quality will not be loss.
