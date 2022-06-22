@@ -21,6 +21,7 @@
 ** Tips **
 - For PulseEffects, try this command ```pulseeffects -b 1``` to bypass audio effect and ```-b 2``` to revert. This help to hear the difference.
 - You may try using file from old commit in case you think it is better, I may update them, and the newer maybe worse.
+- Feel free to open discussion of this repo to talk about this
 
 **Remarks**
 - Any method welcomed, even it using (abnormal) RAM/CPU/GPU/Disk, just do on my target, that is it.
