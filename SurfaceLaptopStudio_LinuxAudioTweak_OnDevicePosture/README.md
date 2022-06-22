@@ -26,3 +26,4 @@
 - These files except specify here, consider as lazy adjustment. If anyone have better adjustment can do a PR.
 - in laptop state, seem like I got EQ in shape of sine curve (normal sine curve that starts at y=0 start by going up and down...)
 - On Windows SW DSP, seem to be no audio effects that processing one channel cause affect on another channel, so using crossfeed / stereo wide may not accurate to what Windows SW DSP do.
+- These configuration is not stable, so are changed in the future at anytime
