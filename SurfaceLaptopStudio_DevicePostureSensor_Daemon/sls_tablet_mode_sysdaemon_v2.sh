@@ -3,8 +3,8 @@
 IS_PREPARE=1
 echo "[NOTICE:sls_tablet_mode_sysdaemon_v2] From now on, The script should output only with the header of the script name, if any line output to screen/stdout without it, it mean something wrong (such as mis-configured or incompatible thing occured)"
 
-# set state update interval
-UPDATE_INTERVAL=1
+# set state update interval (default to 1, even below is not set to default)
+UPDATE_INTERVAL=0.05
 # location of file that place indicating value for device tablet state, must be the same as user-daemon (v2)
 RUNDIR=/run/sls_tablet_mode_daemon
 DEV_STATE_FILE=/sys/devices/platform/MSHW0123\:00/01\:26\:01\:00\:01/state
@@ -23,6 +23,7 @@ else
 	echo "[ERROR:sls_tablet_mode_sysdaemon_v2] require sls_tablet_mode_sysdaemon (v1) to be executing first"
 	exit 1
 fi
+rm $RUNDIR/state_monitor &>/dev/null
 mknod $RUNDIR/state_monitor p
 determine_and_set
 IS_PREPARE=0
