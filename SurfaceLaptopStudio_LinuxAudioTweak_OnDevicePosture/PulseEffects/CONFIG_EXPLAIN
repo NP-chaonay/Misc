@@ -1,13 +1,24 @@
 [why section]
-- Why put like this order EQ>Loudness>Compressor>Limiter:
-	- The input audio is nothing normal but we need to apply EQ to make it optimize with device posture
-	- So we do EQ (using 10band, then recalculate freq, then adjust each band it, also adjust output dB as final, leave else as default) first (assume that orignal audio is good)
-	- And then we pass to Loudness (leave all default) (idk but I think this will do loudness stuff work to make it not so loud/quiet, idk)
-	- Compressor (using default value) (idk it seem to be popular plugin, that use before export or mix with another track, idk about this too)
-		- Noted that this is disabled as now, because I have designed output of EQ to not much exceed 0db, so no this plugin to make sound quality better, and this seem to decrease volume so disable it, as my EQ implementation also decrease it already.
-	- Limiter (using default value but enable 2 auto features) as last to make sure there is no hard-clip in output audio
-- I think it is better to using 0db as both input/output dB in plugin EQ, and lower in EQ curve instead. so the maximum peek of EQ curve must be 0dB. So the sound will not much over-amp/under-amp and so make it not be quality-reduced.
-	- The disadvantage of this method and alike is the decrement of many band cause overall volume decreased (especially when EQ curve have many band's value that much dfferent value from highest peak), and maybe have implementation that do not decrease overall volume while retain quality and EQ curve.
-	- So if we cannot find or implement way of using better EQ/method, then I may need to using this instead, it make audio becoming less loud but at least gurrantee of audio quality will not be loss.
-	- maybe our answer is on compressor stuff and something I don't know (I currently don't have that much audio processing/production knowledge), maybe we need EQ that able to adjust each band in special way, for ex. no -1,0+2dB, but just re-mapping dB value in range of (-inf,0dB) not above than that, so we can amp any high-loudness of specific band to be more higher but not >0dB, while some loudness range we adjust little bit and lower range we leave it. This possible on some kind of EQ, but I do not know what is this called, or does I have to do it by myself, however I do not know about audio processing and math that involved (certainly Calculus).
-- For to increase volume, I have enabled maximizer by default, I think this is not good if I emphasize on quality, but I leave it enable to make it louder, feel free to disable if it affect much of quality
+- About order of EQ>LoudnessCompensator>Maximizer>Compresser>Limiter
+	1.Put EQ first because we want to adjust EQ
+	2.Then put LC. because EQ make less loud, so this helps (but just little bit but put this to reduce load of Maximizer and to reduce quality loss)
+	3.Then we adding Maximizer to increase loudness
+	4.Then we adding Compress (idk it seem to be popular plugin, that use before export or mix with another track, idk about this too, so using this may improve audio quality that have loss in loudnes incrementing)
+	5.Limiter using in case over-amp occured
+- about EQ
+	- using 10band for fast analysis at this moment, then recalculate freq, then adjust each band it, then lower all band equally that make highest peak become 0dB. I do not touch input/output dB amount. Else leave default
+	- I think it is better to using 0db as both input/output dB in plugin EQ, and lower in EQ curve instead. so the maximum peek of EQ curve must be 0dB. Because I think this way cause less loudness reduction.
+- About LoudnessCompensator and Compressor
+	- using default value
+- About Maximizer
+	- set Threshold to minimum value from all band set in EQ
+	- leave else default
+- About Limiter
+	- using default value but enable 2 auto features
+- About this method and loudness
+	- Maybe there is better EQ or EQ-alike that also adjust EQ or similar to what EQ adjusts but reduce less loudness
+	- So if we cannot find or implement way of using better EQ/method, then I may need to using the above method instead which is:
+		- apply EQ > apply LC. > apply Maximizer (LC. is not loud enough) > Apply Compressor to ensure quality > Apply Limiter
+		- The disadvantage of this method maybe quality drop (idk if Windows do the same, or if quality really drops, this is somehow both subjective and objective) and if we cut out Maximizer and LC. (LC. may have just little or negotiable of quality drops) then quality is good but loudness is poor.
+		- I think Maximizer is not good if I emphasize on quality, but I leave it enable to make it louder, feel free to disable if it affect much of quality, but for LC it may have little or negotiable impacts so leave it enable if want to increase loudness with Maximizer (if let Maximizer do work alone may cause worse quality, as I think LC have better way to restore loudness while retains quality, better than Maximizer), if loudness increment is not need now as when we have better EQ, then we disable both LC and Maximizer.
+	- on EQ, if there any band that has very long distance from average curve's dB then else bands have less loudness, or similar thing (especially poor thing) happens.

@@ -42,8 +42,8 @@
             "bass_enhancer",
             "equalizer",
             "loudness",
-            "compressor",
             "maximizer",
+            "compressor",
             "limiter",
             "crossfeed",
             "stereo_tools",
@@ -66,7 +66,7 @@
             "listen": "false"
         },
         "compressor": {
-            "state": "false",
+            "state": "true",
             "input-gain": "0",
             "output-gain": "0",
             "mode": "Downward",
@@ -374,7 +374,7 @@
             "state": "true",
             "release": "100",
             "ceiling": "0",
-            "threshold": "-5"
+            "threshold": "-9.4000000000000004"
         },
         "pitch": {
             "state": "false",
