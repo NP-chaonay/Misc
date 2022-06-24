@@ -29,3 +29,6 @@
 - in laptop state, seem like I got EQ in shape of sine curve (normal sine curve that starts at y=0 start by going up and down...)
 - On Windows SW DSP, seem to be no audio effects that processing one channel cause affect on another channel, so using crossfeed / stereo wide may not accurate to what Windows SW DSP do.
 - These configuration is not stable, so are changed in the future at anytime
+- For who very very interesting of reverse engineering bytecode, SLS use EQ volume data from ```(Registry)/HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e96c-e325-11ce-bfc1-08002be10318}\<some number on my system is 0002 maybe differ on others>\EQVol\DATBUFFERS\DATBUFFER03_0<0 to 3>```
+  - DATBUFFER03_00,DATBUFFER03_01,DATBUFFER03_02,DATBUFFER03_03 may means to EQ for lid/laptop/slate/tablet correspondingly.
+  - These all seem to be raw data, modifying it without proper knowledge will cause mis-function of EQ/volume even it cause 100% loudness of pink noise at all volume settings (not tested on mute state).
