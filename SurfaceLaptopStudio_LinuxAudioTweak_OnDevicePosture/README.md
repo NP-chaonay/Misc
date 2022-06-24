@@ -24,6 +24,9 @@
 - Feel free to open discussion of this repo to talk about this
 
 **Remarks**
+- My song used as reference for settings config:
+  - Pink noise
+  - https://www.youtube.com/watch?v=kvAfmYNtugQ
 - Any method welcomed, even it using (abnormal) RAM/CPU/GPU/Disk, just do on my target, that is it.
 - These files except specify here, consider as lazy adjustment. If anyone have better adjustment can do a PR.
 - in laptop state, seem like I got EQ in shape of sine curve (normal sine curve that starts at y=0 start by going up and down...)
