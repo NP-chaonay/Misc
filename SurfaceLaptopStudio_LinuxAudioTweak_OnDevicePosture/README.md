@@ -25,8 +25,10 @@
 
 **Remarks**
 - My song used as reference for settings config:
-  - Pink noise
-  - https://www.youtube.com/watch?v=kvAfmYNtugQ
+  - Pink noise (maybe good for EQ tweaking)
+  - https://www.youtube.com/watch?v=kvAfmYNtugQ (Dolby most watched and have audio content that useful for testing)
+  - https://www.youtube.com/watch?v=Yo3qc7FIBlQ (EQ test audio)
+  - https://www.youtube.com/watch?v=NtSYtWnaKsA (since this was song I most listened on SLS on both Windows and Linux and total listen from both of them)
 - Any method welcomed, even it using (abnormal) RAM/CPU/GPU/Disk, just do on my target, that is it.
 - These files except specify here, consider as lazy adjustment. If anyone have better adjustment can do a PR.
 - in laptop state, seem like I got EQ in shape of sine curve (normal sine curve that starts at y=0 start by going up and down...)
