@@ -43,12 +43,12 @@
             "equalizer",
             "loudness",
             "compressor",
+            "maximizer",
             "limiter",
             "crossfeed",
             "stereo_tools",
             "delay",
             "deesser",
-            "maximizer",
             "filter",
             "pitch",
             "rnnoise"
@@ -371,10 +371,10 @@
             "output-gain": "0"
         },
         "maximizer": {
-            "state": "false",
-            "release": "25",
+            "state": "true",
+            "release": "100",
             "ceiling": "0",
-            "threshold": "0"
+            "threshold": "-5"
         },
         "pitch": {
             "state": "false",
