@@ -30,3 +30,4 @@
 - On Windows SW DSP, seem to be no audio effects that processing one channel cause affect on another channel, so using crossfeed / stereo wide may not accurate to what Windows SW DSP do.
 - These configuration is not stable, so are changed in the future at anytime
 - FYI: it seem EQ settings is set on line 440-443 at the file "/hdasstmd3a/hdasstmd3a.inf" at SurfaceUpdates Folder installed from SLS driver downloaded from Microsoft. I'm not sure about this and require further analysis.
+  - if this true, then I have 2 assumptions, one is it is 65536 value range for each 16 band (most possible I think), or 256 value range for each 32 band (maybe too much band and maybe too low value range), noted that value range is in countable number not in continuous number.
