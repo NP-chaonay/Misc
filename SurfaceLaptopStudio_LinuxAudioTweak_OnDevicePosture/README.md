@@ -33,3 +33,4 @@
   - DATBUFFER03_00,DATBUFFER03_01,DATBUFFER03_02,DATBUFFER03_03 may means to EQ for lid/laptop/slate/tablet correspondingly.
   - These all seem to be raw data, modifying it without proper knowledge will cause mis-function of EQ/volume even it cause 100% loudness of pink noise at all volume settings (not tested on mute state).
   - maybe if I not guess it wrong, the EQ setting is come from value in ```C:/Program Files/SurfaceUpdate/hdxsstmd3a/RTAIODAT.DAT``` of Surface driver installation which can be download from MS. let me analysing this on my freetime
+  - if I copied DATBUFFER03_01 to another DATBUFFER03_0* then all states would sounds like in laptop state.
