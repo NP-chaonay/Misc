@@ -41,3 +41,4 @@
   - maybe if I not guess it wrong, the EQ setting is come from value in ```C:/Program Files/SurfaceUpdate/hdxsstmd3a/RTAIODAT.DAT``` of Surface driver installation which can be download from MS. (UPDATED: yes it is, all entire bytes of one of DATBUFFER03_0* I selected, is matched. And I also guess this also appiled on the others remained. (updated yes it apply to remained)
   - if I copied DATBUFFER03_01 to another DATBUFFER03_0* then all states would sounds like in laptop state.
   - OEMData/DATBUFFER03_0* contains binary data in hex form (idk way to interpret it back to binary form, maybe just decode normally (0f/10 >> 15/16 >> 00010000/00001111, f0 >> 240 >> 11110000; it gets from exporting of Windows Registry Editor, and I separate each hex group in to each line in order to easy diff)
+    - noted that file has been reencode to LF/UTF-8, and remove NULL char (if have)
