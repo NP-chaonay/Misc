@@ -17,12 +17,12 @@
 - If you have very-good/studio microphone instead, you can using that to compare instead of above.
 - If you have very good knowledge on what I mentioned, I welcome contribution on my repo which consist of audio-tweaking configuration.
 - Read Important first.
-- Feel free to talk about this through issues or PR or discussion tab of the repo. Feel free to tell if something is not matched with Windows side
+- Feel free to talk about this through issues or PR or discussion tab of the repo (with category of SLS). Feel free to tell if something is not matched with Windows side
 
 ** Tips **
 - For PulseEffects, try this command ```pulseeffects -b 1``` to bypass audio effect and ```-b 2``` to revert. This help to hear the difference.
 - You may try using file from old commit in case you think it is better, I may update them, and the newer maybe worse.
-- Feel free to open discussion of this repo to talk about this
+- Feel free to open discussion of this repo (with category of SLS) to talk about this
 
 **Remarks**
 - My song used as reference for settings config:
