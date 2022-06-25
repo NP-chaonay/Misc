@@ -81,7 +81,7 @@ tolaptop() {
 	fi
 	## for PulseEffects integration, configure your preset below
 	is_pulseeffects_run
-	if (($?)); then pulseeffects -l SLS_laptop_dev; fi
+	if (($?)); then pulseeffects -l SLS_laptop_30band_dev; fi
 	##
 }
 toslate() {
