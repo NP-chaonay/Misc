@@ -1,1 +1,1 @@
-- these file must be hard-linked from original file
+- these file must be hard-linked from original file, since GitHub supports symlink copying, (idk way to tell it force treat as normal file)
