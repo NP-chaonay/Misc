@@ -8,7 +8,7 @@
 - about EQ
 	- using 10band for fast analysis at this moment, then recalculate freq, then adjust each band it, then lower all band equally that make highest peak become 0dB. I do not touch input/output dB amount. Else leave default
 	- I think it is better to using 0db as both input/output dB in plugin EQ, and lower in EQ curve instead. so the maximum peek of EQ curve must be 0dB. Because I think this way cause less loudness reduction.
-	- I first enable plugins I use, and then adjust EQ, so the EQ settings should be use with the rest of audio processing plugins.
+	- I first enable plugins I use, and then adjust EQ, so the EQ settings should be use with the rest of audio processing plugins with its matching configruation.
 - About LoudnessCompensator and Compressor
 	- using default value
 - About Maximizer
