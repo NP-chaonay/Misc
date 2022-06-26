@@ -372,7 +372,7 @@
         },
         "maximizer": {
             "state": "true",
-            "release": "100",
+            "release": "25",
             "ceiling": "0",
             "threshold": "-9.4000000000000004"
         },
