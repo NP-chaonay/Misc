@@ -44,4 +44,4 @@
     - noted that file has been reencode to LF/UTF-8, and remove NULL char (if have)
   - OEMData/DATBUFFER03_0*_HEATMAP.png contains heatmap of bytes from left to right and then top to bottom, 0=rgb(0%,0%,100%) 1=rgb(0%,100%,0%) 255=rgb(100%,0%,0%) and 2-254 starts from black to white
   - My guess
-    - Lid/Slate/Tablet have similar heatmap except laptop, so I guess that in laptop state, there maybe many settings that in its default/not-default settings but that settings leave disabled, so I guess there should be setting-enabling bit there.
+    - Lid/Slate/Tablet have similar heatmap except laptop, so I guess that in laptop state (which I think that requires least customization as surroundings of speaker when in laptop state is clear, there maybe many settings that in its default/not-default settings but that settings leave disabled, so I guess there should be setting-enabling bit there.
