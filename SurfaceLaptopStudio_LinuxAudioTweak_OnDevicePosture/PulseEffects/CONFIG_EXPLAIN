@@ -1,4 +1,25 @@
-[why section]
+- About order of EQ>Limiter
+	1.Put EQ first because we want to adjust EQ
+	2.Limiter using in case over-amp occured
+- about EQ
+	- using 30band in the future, then recalculate freq, then adjust each band it, I do not touch input/output dB amount. Else leave default
+	- I first enable plugins I use, and then adjust EQ, so the EQ settings should be use with the rest of audio processing plugins with its matching configruation.
+- About Limiter
+	- using default value but enable 2 auto features
+- About this method and loudness and quality
+	- Maybe there is better EQ or EQ-alike that also adjust EQ or similar to what EQ adjusts but improve more quality in less loudness reduction
+	- So if we cannot find or implement way of using better EQ/method, then I may need to using the above method instead which is:
+		- apply EQ > Apply Limiter
+		- The disadvantage of this method maybe quality drop (idk if Windows do the same, or if quality really drops, this is somehow both subjective and objective) as doing EQ may cause over-amped, however I manage this by using Limiter in case of over-amped from increment of each band.
+	- why using EQ in way the not reduce loudness (just adjust like normal way and ignore >0db value) and let Limiter handle the clipping?
+		- I think this way affect less quality than my previous way 
+- About why remove compressor: it affected much EQ stuff when some freq is so high than average.
+- About why remove Loudness Compensator: no need in my new implementation
+- About why remove Maximizer:
+	- it might cause sound EQ shape changed much than using EQ normally and let Limiter do clipping.
+	- I think Maximizer is not good if I emphasize on quality
+
+[OLD just for reference]
 - About order of EQ>LoudnessCompensator>Maximizer>Limiter
 	1.Put EQ first because we want to adjust EQ
 	2.Then put LC. because EQ make less loud, so this helps (but just little bit but put this to reduce load of Maximizer and to reduce quality loss)
