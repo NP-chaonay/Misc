@@ -1,3 +1,4 @@
+- non-30-band is discontinued improved
 - About order of EQ>Limiter
 	1.Put EQ first because we want to adjust EQ
 	2.Limiter using in case over-amp occured
