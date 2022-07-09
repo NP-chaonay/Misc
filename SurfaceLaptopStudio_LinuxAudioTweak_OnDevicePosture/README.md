@@ -25,7 +25,7 @@
 - Feel free to open discussion of this repo (with category of SLS) to talk about this
 - (extra) To do things like headphone virtualization (it is not HRTF which transform >2ch into virtual-surrounding-sound stereo (or what we called binaural audio)), Dolby Atmos is not work (or work not good enough) for H.V. of stereo-ch digital audio. So at least you could using Crossfeed and Stereo Tools to do this job instead of Dolby Atmos, which works better. For audio effect that converting >2ch into binaural audio that existed in Dolby Atmos, maybe idk about the related audio plugins on Linux. Pls do research on this instead.
 **Remarks**
-- My song used as reference for settings config:
+- My song used as reference for settings config: (noted that settings is not adjusted from else referenced song other than this)
   - Pink noise (maybe good for EQ tweaking)
   - https://www.youtube.com/watch?v=kvAfmYNtugQ (Dolby most watched and have audio content that useful for testing)
   - https://www.youtube.com/watch?v=Yo3qc7FIBlQ (EQ test audio)
