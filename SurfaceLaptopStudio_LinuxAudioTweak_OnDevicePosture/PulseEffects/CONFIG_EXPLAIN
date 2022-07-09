@@ -7,6 +7,7 @@
 	- using 30band in the future, then recalculate freq, then adjust each band it, I do not touch input/output dB amount. Else leave default
 	- I first enable plugins I use, and then adjust EQ, so the EQ settings should be use with the rest of audio processing plugins with its matching configruation.
 	- (do later, see why above) after adjust EQ, do bands' value normalization (set current mean of each bands' value to become 0dB) 
+	- if you emphasize on much about not-to-overamp, then reduce output dB that make the highest band's dB to be 0dB
 - About Limiter
 	- using default value but enable 2 auto features
 - About this method and loudness and quality
