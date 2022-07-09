@@ -1,10 +1,12 @@
-- non-30-band is discontinued improved
+- non-30-band is discontinued improved/supported
+- for 30-band, it is all in-progress of improvement: if I do this completely, then I will do bands' value normalization (set current mean of each bands' value to become 0dB) 
 - About order of EQ>Limiter
 	1.Put EQ first because we want to adjust EQ
 	2.Limiter using in case over-amp occured
 - about EQ
 	- using 30band in the future, then recalculate freq, then adjust each band it, I do not touch input/output dB amount. Else leave default
 	- I first enable plugins I use, and then adjust EQ, so the EQ settings should be use with the rest of audio processing plugins with its matching configruation.
+	- (do later, see why above) after adjust EQ, do bands' value normalization (set current mean of each bands' value to become 0dB) 
 - About Limiter
 	- using default value but enable 2 auto features
 - About this method and loudness and quality
