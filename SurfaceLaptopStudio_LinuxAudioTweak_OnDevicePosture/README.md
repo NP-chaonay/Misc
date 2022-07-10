@@ -20,7 +20,9 @@
 - Feel free to talk about this through issues or PR or discussion tab of the repo (with category of SLS). Feel free to tell if something is not matched with Windows side
 
 ** Tips **
-- For PulseEffects, try this command ```pulseeffects -b 1``` to bypass audio effect and ```-b 2``` to revert. This help to hear the difference.
+- For PulseEffects:
+  - try this command ```pulseeffects -b 1``` to bypass audio effect and ```-b 2``` to revert. This help to hear the difference.
+  - If you not sure if what you are doing that conflict this is better or not know what you are doing or know the result or how is done: Please follow PulseEffects guide on "Enhancing your internal notebook speakers without using an equalizer" instead of only EQ adjustment. If you dont have enough better reason, then perhaps it is better to stick to that doc. 
 - You may try using file from old commit in case you think it is better, I may update them, and the newer maybe worse.
 - Feel free to open discussion of this repo (with category of SLS) to talk about this
 - (extra) To do things like headphone virtualization (it is not HRTF which transform >2ch into virtual-surrounding-sound stereo (or what we called binaural audio)), Dolby Atmos is not work (or work not good enough) for H.V. of stereo-ch digital audio. So at least you could using Crossfeed and Stereo Tools to do this job instead of Dolby Atmos, which works better. For audio effect that converting >2ch into binaural audio that existed in Dolby Atmos, maybe idk about the related audio plugins on Linux. Pls do research on this instead.
