@@ -40,7 +40,7 @@
 - Any method welcomed, even it using (abnormal) RAM/CPU/GPU/Disk, just do on my target, that is it.
 - These files except specify here, consider as lazy adjustment. If anyone have better adjustment can do a PR.
 - in laptop state, seem like I got EQ in shape of sine curve (normal sine curve that starts at y=0 start by going up and down...)
-- <s>On Windows SW DSP, seem to be no audio effects that processing one channel cause affect on another channel, so using crossfeed / stereo wide may not accurate to what Windows SW DSP do.</s> Ijust found that at least at I have tested, low-freq got loud on both side. even channel is selected only either left/right.
+- On Windows SW DSP, seem to be no audio effects that processing one channel cause affect on another channel, so using crossfeed / stereo wide may not accurate to what Windows SW DSP do.
 - These configuration is not stable, so are changed in the future at anytime
 - For who very very interesting of reverse engineering bytecode, SLS use EQ volume data from ```(Registry)/HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e96c-e325-11ce-bfc1-08002be10318}\<some number on my system is 0002 maybe differ on others>\EQVol\DATBUFFERS\DATBUFFER03_0<0 to 3>```
   - DATBUFFER03_00,DATBUFFER03_01,DATBUFFER03_02,DATBUFFER03_03 may means to EQ for lid/laptop/slate/tablet correspondingly.
