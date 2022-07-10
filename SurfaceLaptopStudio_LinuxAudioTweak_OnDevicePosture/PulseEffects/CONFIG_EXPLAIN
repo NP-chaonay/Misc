@@ -1,3 +1,7 @@
+- all file in same folder as what this file placed, are discontinued improved/supported
+- new config file will be created in folder V3
+
+[OLD just for reference but version 2]
 - non-30-band is discontinued improved/supported
 - for 30-band, it is all in-progress of improvement: if I do this completely, then I will do bands' value normalization (set current mean of each bands' value to become 0dB) 
 - About order of EQ>Limiter
