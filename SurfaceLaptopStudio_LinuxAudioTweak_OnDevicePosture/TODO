@@ -1,3 +1,1 @@
-- Config EQ in Pulseeffects to using 30-band
-  - Main
-  - do bands' value normalization (set current mean of each bands' value to become 0dB) 
+- Tweak audio based on PulseEffects documentation
