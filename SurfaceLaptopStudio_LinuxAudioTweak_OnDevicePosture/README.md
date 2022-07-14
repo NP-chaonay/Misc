@@ -6,9 +6,10 @@
 **Important**:
 - I target on imitate Windows audio (mainly accurate on instruction and then accurate on what we hear) with audio enhancment for laptop speaker turned on, but Dolby Atmos is turned off. So you have to do followings on Windows if you want to compare that one:
   - Disable Dolby Atmos: not just turned off in spatial sound, but you have to instal Dolby Access and disable at the settings too.
+    - Noted that you have to re-disable if you have do Windows Update, or when there is appearance of notification about "Dolby Atmos is ready to use for".
   - Enable audio enhancement for laptop speaker: Settings > System > Sound (maybe, if no then Audio) > At section Output > Speaker > Audio Enhancement
   - Ensure that no 3rd party audio enhancment enabled including spatial audio, I want only OEM audio enhancment to be enabled except Dolby Atmos
-  - _"mainly accurate on instruction and then accurate on what we hear"_: I mean that we need to ensure that we using most correct/accurate audio processing instruction, but there may be some exception on this to allow audio to be more like on Windows-side, however if possible and it is good to do, audio processing instuction must be correct/accurate. 
+- _"mainly accurate on instruction and then accurate on what we hear"_: I mean that we need to ensure that we using most correct/accurate audio processing instruction, but there may be some exception on this to allow audio to be more like on Windows-side, however if possible and it is good to do, audio processing instuction must be correct/accurate. 
 - On Linux, you have to set laptop speaker sample rate to 48kHz (see https://github.com/linux-surface/linux-surface/wiki/Surface-Laptop-Studio#poor-sound-quality-when-playing-on-laptop-speaker-on-441khz-sample-rate), or else you cannot correctly imitate Windows audio cause it has a problem about internal driver. 
 - If possible, comparing and testing and tweaking on highest volume as possible (as you feel free to do, if volume is too low too do then it is better to wait for its time)
 - Remember that
@@ -28,7 +29,7 @@
   - If you not sure if what you are doing that conflict this is better or not know what you are doing or know the result or how is done: Please follow PulseEffects guide on "Enhancing your internal notebook speakers without using an equalizer" instead of only EQ adjustment. If you dont have enough better reason, then perhaps it is better to stick to that doc. 
 - You may try using file from old commit in case you think it is better, I may update them, and the newer maybe worse.
 - Feel free to open discussion of this repo (with category of SLS) to talk about this
-- (extra) To do things like headphone virtualization (it is not HRTF which transform >2ch into virtual-surrounding-sound stereo (or what we called binaural audio)), Dolby Atmos is not work (or work not good enough) for H.V. of stereo-ch digital audio. So at least you could using Crossfeed and Stereo Tools to do this job instead of Dolby Atmos, which works better. For audio effect that converting >2ch into binaural audio that existed in Dolby Atmos, maybe idk about the related audio plugins on Linux. Pls do research on this instead.
+- (extra) To do things like headphone virtualization (it is not HRTF which transform >2ch into virtual-surrounding-sound stereo (or what we called binaural audio)), Dolby Atmos is not work (or work not good enough) for H.V. of stereo-ch digital audio. So at least you could using Crossfeed and Stereo Tools to do this job instead of Dolby Atmos, which works better. For audio effect that converting >2ch into binaural audio that existed in Dolby Atmos, maybe idk about the related audio plugins on Linux. Pls do research for that instead.
 **Remarks**
 - My song used as reference for settings config: (noted that settings is not adjusted from else referenced song other than this)
   - Pink noise (maybe good for EQ tweaking)
