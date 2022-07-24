@@ -4,12 +4,13 @@
 [Section "Metadata"]
 - License enforcer: (see License Owner)
 - License Owner: Nuttapong Punpipat (nuttapongpunpipat@gmail.com)
-- Created/Updated on : 2022-07-24_12:19_UTC+07
+- Created on : 2022-06-20_11:18_UTC+07
+- Previous applied license file : N/A
 
 [Section "General declaration"]
 - This license have MIT license as fallback
 - Declare any contents in /SurfaceLaptopStudio_LinuxAudioTweak_OnDevicePosture as Public Domain, despite of fallback license
 
 [Section "Remark"]
-- If license is changed, should kept any old license files in /oldlicense, and rename the old file by specify what commits does that license file appiled from start to end.
+- If license is changed, should kept any old license files in /oldlicense, and rename the old file to when it was created
 - For now let using MIT license as fallback
