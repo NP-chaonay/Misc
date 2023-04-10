@@ -1,0 +1,6 @@
+The media is Free License if met 1 of these:
+1) It is public domain according to U.S. or/and international law
+2) It is Creative Commons
+3) Any license that having less or equal restriction to 1) / 2)
+4) Any license that treat as Free License, which must stated here (can be append for future license):
+- (no entry)
