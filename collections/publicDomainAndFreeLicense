@@ -1,0 +1,14 @@
+# This lists sources/entries of public domain / specified free liecense (for more information see /collections/REMARK.txt) recording/song
+
+# REMARK1: If it is source for collection of songs/recordings, put in section "Sources", if it is individual songs/recordings then put in section "Individual"
+# REMARK2: Check if the song/recording is having the audio/audio-project file or not, if not then put in section that have the name "(NoAudioFile)" 
+
+[Sources]
++ https://www.joshwoodward.com/
+[Individual]
+# do not add any song here if the song is contains in 1 of any sources
+# if that happening, remove from this list
+[Sources (NoAudioFile)]
+[Individual (NoAudioFile)]
+# do not add any song here if the song is contains in 1 of any sources
+# if that happening, remove from this list
